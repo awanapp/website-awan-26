@@ -1,0 +1,151 @@
+{
+    "ar": "العربية",
+    "en": "English",
+    "projectName": "awan",
+    "common": {
+        "GET_CONSULTING": "Get Consulting",
+        "WATCH_VIDEOS": "Watch Videos",
+        "MORE_PRODUCTS": "More Products",
+        "READ_MORE": "Read More",
+        "SEND_BUTTON": "Send"
+    },
+    "header": {
+        "HOME": "Home",
+        "ABOUT_US": "About Us",
+        "PRODUCTS": "Products",
+        "SERVICES": "Services",
+        "OUR_CLIENTS": "Our Clients",
+        "CONTACT_US": "Contact Us",
+        "quick_links": "Quick Links"
+    },
+    "cover": {
+        "WELCOME_MESSAGE": "Welcome To AWAN official Website",
+        "DESCRIPTION": "We are a pioneer company established recently since 2015 to provide an innovative digital solution",
+        "PIONEER_COMPANY_TEXT": "We are <strong class=\"font-extrabold text-green-600\">a pioneer company</strong> established recently since 2015 to provide an innovative digital solution"
+    },
+    "about": {
+        "HEADING": "About",
+        "SUBHEADING": "We Care About Your Business Plan.",
+        "DESCRIPTION": "Awan is a start-up company in the field of Innovative Digital Solutions and Digital Transformation backed with our Team’s 13+ Years’ Experience in Software Development and Information Technology Fields. Our journey started since 2015 as Freelancers to provide our customers with Digital Solutions to fulfill their needs including Websites, Mobile and Desktop Applications. We began to grow rapidly and achieve unprecedented success, and due to the market and our customers’ needs,",
+        "CONTINUED_DESCRIPTION": "We started to develop our Platforms and Cloud Solutions. In 2019 we decided to start our company Awan. The most critical objective of our company is to better meet our customers' needs, facilitate their lives, help them to provide better services, which will reflect on their business, enhancing their customers' experience and increasing their organization’s competitive advantage, and hence increase their revenue."
+    },
+    "vision": {
+        "HEADING": "Vision",
+        "DESCRIPTION": "To be the most reliable and trusted provider of Innovative Digital Solutions and Digital Transformation that ensure customer competitive advantages while enabling a great business value."
+    },
+    "mission": {
+        "HEADING": "Mission",
+        "DESCRIPTION": "We deliver Innovative Digital Solutions that address Customers Challenges in a uniquely efficient way.",
+        "WHAT_WE_CAN_DO": "What We can Do",
+        "EXPLANATION": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy."
+    },
+    "products": {
+        "OUR_PRODUCTS": "Our Products",
+        "LATEST_PRODUCTS": "Latest Products",
+        "PRODUCT_LIST": [
+            {
+                "TITLE": "HR & Time Control System",
+                "DESCRIPTION": "The HR Management System is a web and mobile application designed to meet companies' needs for comprehensive and efficient employee tracking and management. It allows for employee data recording, leave and schedule management, and provides reports to enhance efficiency and transparency within the organization.",
+                "IMAGE": "images/hr-product.png"
+            },
+            {
+                "TITLE": "Cars Affairs Department",
+                "DESCRIPTION": "The corporate fleet management system enables effective monitoring and tracking of vehicle movement and maintenance. The system helps improve fleet management efficiency by scheduling regular maintenance, tracking fuel consumption, and monitoring locations in real time. This solution provides a comprehensive view of the fleet, reducing operational costs and enhancing the safety and efficiency of corporate logistics operations.",
+                "IMAGE": "images/car-product.png"
+            },
+            {
+                "TITLE": "Medical Platform",
+                "DESCRIPTION": "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+                "IMAGE": "images/medical-product.png"
+            },
+            {
+                "TITLE": "Naqla System for Delivery Operations Management",
+                "DESCRIPTION": "The Driver and Supervisor Management System is an innovative solution for transport and delivery companies, accessible via web and mobile. It offers efficient tools for tracking daily operations and managing orders seamlessly.",
+                "IMAGE": "images/nakla.png"
+            },
+            {
+                "TITLE": "Advertising and Marketing Company Management System",
+                "DESCRIPTION": "An innovative internal system designed for advertising companies, providing comprehensive management of the work cycle. It starts from registering customer requests and assigning responsible designers, all the way to managing production resources such as wood, with detailed reports for all aspects.",
+                "IMAGE": "images/Ads.png"
+            }
+        ]
+    },
+    "stats": {
+        "YEARS_EXPERIENCE": {
+            "VALUE": "10+",
+            "DESCRIPTION": "Years of Experience",
+            "DETAILS": "We have over 10 years of experience in delivering comprehensive and advanced software solutions, ensuring high-quality services and exceptional results for our clients."
+        },
+        "SATISFIED_CLIENTS": {
+            "VALUE": "5960",
+            "DESCRIPTION": "Satisfied Clients",
+            "DETAILS": "We proudly served 5,960 satisfied clients, committed to delivering solutions that exceed their expectations and achieve the highest levels of satisfaction."
+        },
+        "IT_PROBLEMS_SOLVED": {
+            "VALUE": "50k",
+            "DESCRIPTION": "IT Problems Solved",
+            "DETAILS": "We have resolved 50,000 technical issues, reflecting our expertise and dedication to providing effective and sustainable technical support to our clients."
+        },
+        "PRO_TEAM_MEMBERS": {
+            "VALUE": "25+",
+            "DESCRIPTION": "Professional Team Members",
+            "DETAILS": "Our team includes over 25 skilled professionals who are passionate about delivering the best software solutions to our clients."
+        }
+    },
+    "services": {
+        "OUR_SERVICES": "Our Services",
+        "description": "Our design and development approach.",
+        "description2": "development approach.",
+        "DigitalTransformation": {
+            "TITLE": "Digital Transformation",
+            "DESCRIPTION": "We utilize digital technologies to create and enhance business projects of all sizes, improving customer experiences to continually meet market demands."
+        },
+        "FullStackProduction": {
+            "TITLE": "Full Stack Software Development",
+            "DESCRIPTION": "With the diversity of devices, languages, and applications available today, software development services require a range of specialized technologies. We offer these integrated services to ensure exceptional, customized solutions for our clients."
+        },
+        "MobileApplications": {
+            "TITLE": "Mobile Applications",
+            "DESCRIPTION": "We turn your imagination into reality by providing highly scalable application development solutions. Our vision is to digitally transform organizations and innovate unmatched solutions for our clients."
+        },
+        "Websites&WebApplications": {
+            "TITLE": "Websites & Web Applications",
+            "DESCRIPTION": "We develop real-time applications and deploy robust, optimized applications, building APIs that meet your requirements, making work more efficient and significantly speeding up performance."
+        },
+        "Networks&Infrastructure": {
+            "TITLE": "Networks & Infrastructure",
+            "DESCRIPTION": "We design and establish network connectivity, manage network operations and processes, providing a communication path and services that link users, operations, applications, and external and internal networks."
+        },
+        "IntegratedCloudSolutions": {
+            "TITLE": "Integrated Cloud Solutions",
+            "DESCRIPTION": "Cloud computing aims to reduce costs and help users focus on their core business instead of facing technical hurdles."
+        }
+    },
+    "clients": {
+        "TITLE": "Our Clients",
+        "DESCRIPTION": "We are working with"
+    },
+    "team": {
+        "OUR_CEOS": "Our CEOs",
+        "MEET_OUR_EXPERTS": "Meet Our Experts"
+    },
+    "contact": {
+        "CALL_US": "Call Us",
+        "MAIL_US": "Mail Us",
+        "LOCATION": "Location",
+        "ContactUs": "Contact Us",
+        "workingHours": "Along the week from 8:00 AM - 5:00 PM",
+        "ADDRESS": " Nasr City, Cairo, Egypt"
+    },
+    "mail": {
+        "TITLE": "Join Our Mailing List",
+        "EMAIL_PLACEHOLDER": "Your email address"
+    },
+    "META": {
+        "TITLE": "Awan - Innovative Digital Solutions",
+        "DESCRIPTION": "Awan delivers innovative digital solutions, specializing in software development, digital transformation, cloud solutions, and more. Boost your business with Awan's expertise.",
+        "KEYWORDS": "Digital Solutions, Software Development, Digital Transformation, Cloud Solutions, Mobile Applications, Web Development, IT Services, Awan, Cairo, Egypt",
+        "OG_TITLE": "Awan - Innovative Digital Solutions",
+        "OG_DESCRIPTION": "Transform your business with Awan's digital solutions and cutting-edge technologies."
+    }
+}

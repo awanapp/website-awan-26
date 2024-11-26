@@ -1,0 +1,25 @@
+<section id="Products" class="mb-20">
+    <!-- Container -->
+    <div class="mx-auto w-full max-w-7xl px-5 md:px-10">
+        <div class="flex flex-wrap justify-between items-center mb-8 h-auto">
+            <div class="flex flex-col justify-center">
+                <p class="mb-2 text-lg flex items-center gap-2">
+                    <span class="bg-green-600 w-2 h-2 inline-block"></span>
+                    <span>{{ 'products.OUR_PRODUCTS'| translate}}</span>
+                </p>
+                <h2 class="text-4xl font-extrabold text-black max-w-sm">
+                    {{ 'products.LATEST_PRODUCTS'| translate}}
+                </h2>
+            </div>
+            <div class="sm:mt-0 mt-4 ">
+                <a href="javascript:void(0)"
+                    class=" bg-green-600 px-8 py-4 text-sm font-medium text-white shadow hover:bg-green-700 focus:outline-none focus:ring active:bg-green-500 w-auto">
+                    {{ 'common.MORE_PRODUCTS'| translate}}
+                </a>
+            </div>
+        </div>
+        <div *ngFor="let product of products; let i = index" class="mb-8" >
+            <app-our-product-card [product]="product" [index]="i"/>
+        </div>
+    </div>
+</section>

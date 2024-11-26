@@ -1,0 +1,203 @@
+<footer id="Contact" class="bg-primary-900 mt-16 py-8">
+    <!-- Container -->
+    <div class="mx-auto w-full max-w-7xl px-5 md:px-10">
+        <div class="w-full">
+            <div class="mx-auto flex w-full flex-col flex-wrap justify-between gap-5  sm:flex-row md:gap-6">
+                <!-- Item -->
+                <div class="flex flex-col items-center justify-center">
+                    <a class="logo" href="#">
+                        <img  loading="lazy"  src="images/Awan.svg" class="w-auto h-24" alt="Flowbite Logo" />
+                    </a>
+                </div>
+                <!-- Item -->
+                <div class="flex flex-col items-center justify-center">
+                    <a class="flex h-auto items-center  p-4 text-white " href="tel:+01 569 896 654 ">
+                        <div
+                            class="w-16 h-16 rounded-full bg-[#E8FADE] text-green-600 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                            </svg>
+                        </div>
+                        <div class="ltr:ml-4 rtl:mr-4 flex flex-col">
+                            <p class="text-xl font-normal">{{ 'contact.CALL_US'| translate}}</p>
+                            <p class="text-lg text-white" dir="ltr">+01 569 896 654 </p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Item -->
+                <div class="flex flex-col items-center justify-center">
+                    <a class="flex h-auto items-center  p-4 text-white " href="mailto:www.awan-is.com">
+                        <div
+                            class="w-16 h-16 rounded-full bg-[#E8FADE] text-green-600 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                <path d="M3 7l9 6l9 -6" />
+                            </svg>
+                        </div>
+                        <div class="ltr:ml-4 rtl:mr-4 flex flex-col">
+                            <p class="text-xl font-normal">{{ 'contact.MAIL_US'| translate}}</p>
+                            <p class="text-lg text-white ">www.awan-is.com</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Item -->
+                <div class="flex flex-col items-center justify-center">
+                    <a class="flex h-auto items-center  p-4 text-white ">
+                        <div
+                            class="w-16 h-16 rounded-full bg-[#E8FADE] text-green-600 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                                <path
+                                    d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                            </svg>
+                        </div>
+                        <div class="ltr:ml-4 rtl:mr-4 flex flex-col">
+                            <p class="text-xl font-normal">{{ 'contact.LOCATION'| translate}}</p>
+                            <p class="text-lg text-white "> {{'contact.ADDRESS' | translate}} </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="w-full grid md:grid-cols-2 gap-12 xl:col-span-2 py-8 border-b-[1px] border-t-[2px] border-gray-400 my-4">
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+                <div>
+                    <h3 class="text-lg text-green-600 font-semibold leading-6 flex items-center gap-2">
+                        <span class="h-2 w-2 bg-green-600"></span>
+                        <span>{{ 'header.quick_links' | translate}}</span>
+                    </h3>
+                    <ul role="list" class="mt-6 space-y-4">
+                        <li><a class="text-sm leading-6 text-white " href="javascript:void(0)"
+                                (click)="scrollToElement('home')">{{ 'header.HOME' | translate}}</a></li>
+                        <li><a class="text-sm leading-6 text-white " href="javascript:void(0)"
+                                (click)="scrollToElement('about')">{{ 'header.ABOUT_US' | translate}}</a></li>
+                        <li><a class="text-sm leading-6 text-white " href="javascript:void(0)"
+                                (click)="scrollToElement('Products')">{{ 'header.PRODUCTS' | translate}}</a></li>
+                        <li><a class="text-sm leading-6 text-white " href="javascript:void(0)"
+                                (click)="scrollToElement('Services')">{{ 'header.SERVICES' | translate}}</a></li>
+                        <li><a class="text-sm leading-6 text-white " href="javascript:void(0)"
+                                (click)="scrollToElement('Clients')">{{ 'header.OUR_CLIENTS' | translate}}</a></li>
+                    </ul>
+                </div>
+                <div class="mt-10 md:mt-0">
+                    <h3 class="text-lg text-green-600 font-semibold leading-6 flex items-center gap-2">
+                        <span class="h-2 w-2 bg-green-600"></span>
+                        <span>{{ 'services.OUR_SERVICES' | translate}}</span>
+                    </h3>
+                    <ul role="list" class="mt-6 space-y-4">
+                        <li>
+                            <a class="text-sm leading-6 text-white " href="javascript:void(0)"
+                                (click)="scrollToElement('Products')">
+                                {{ 'products.PRODUCT_LIST.0.TITLE' | translate}}
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-sm leading-6 text-white " href="javascript:void(0)"
+                                (click)="scrollToElement('Products')">
+                                {{ 'products.PRODUCT_LIST.1.TITLE' | translate}}
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-sm leading-6 text-white " href="javascript:void(0)"
+                                (click)="scrollToElement('Products')">
+                                {{ 'products.PRODUCT_LIST.2.TITLE' | translate}}
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-sm leading-6 text-white " href="javascript:void(0)"
+                                (click)="scrollToElement('Products')">
+                                {{ 'products.PRODUCT_LIST.3.TITLE' | translate}}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="">
+                <h3 class="text-lg font-bold text-white">{{ 'contact.ContactUs' | translate}}</h3>
+                <p class="mt-2 text-sm leading-6 text-white">
+                    {{ 'mail.TITLE' | translate}}
+                </p>
+                <form class="mt-6 sm:flex sm:max-w-md">
+                    <label for="email-address" class="sr-only">{{ 'mail.EMAIL_PLACEHOLDER' | translate}}</label>
+                    <input type="email" name="email" id="email-address" autocomplete="email" required=""
+                        class="w-full min-w-0 border appearance-none rounded-md border-gray-300 bg-white px-2 py-2.5 text-base leading-7  placeholder-gray-400 shadow-sm focus:border-green-600 focus:ring-green-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
+                        placeholder="{{ 'mail.EMAIL_PLACEHOLDER' | translate}}">
+                    <div class="mt-4 rounded-md sm:mt-0 sm:ltr:ml-4 sm:rtl:mr-4 sm:flex-shrink-0">
+                        <div class="flex">
+                            <button
+                                class="inline-flex items-center justify-center px-4 py-2.5 border border-transparent text-sm font-medium rounded-md shadow-sm focus:outline-none ring-2 ring-offset-2 ring-transparent ring-offset-transparent disabled:bg-gray-400 appearance-none text-white bg-green-600 hover:bg-green-700 focus:ring-green-500 focus:ring-offset-white w-auto"
+                                type="submit">
+                                <div class="relative">
+                                    <div class="">
+                                        {{ 'common.SEND_BUTTON' | translate}}
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-white sm:text-center">© {{year}} <a href="#"
+                    class="hover:underline text-green-600">Awan</a>. All Rights Reserved.
+            </span>
+            <div class="flex mt-4 sm:justify-center items-center sm:mt-0">
+                <span class="text-white mx-2 text-lg font-extralight">
+                    Follow :
+                </span>
+                <a href="https://www.facebook.com/awan.is.eg" class="text-white" target="_blank">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        viewBox="0 0 8 19">
+                        <path fill-rule="evenodd"
+                            d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <span class="sr-only">Facebook page</span>
+                </a>
+                <a href="https://x.com/awanInnovate" class="text-white ms-5" target="_blank">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        viewBox="0 0 20 17">
+                        <path fill-rule="evenodd"
+                            d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <span class="sr-only">Twitter page</span>
+                </a>
+                <a href="https://www.linkedin.com/company/awan-innovative-solutions/posts/?feedView=all"
+                    class="text-white ms-5" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-linkedin w-4 h-4">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M17 2a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h-10a5 5 0 0 1 -5 -5v-10a5 5 0 0 1 5 -5zm-9 8a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m6 0a3 3 0 0 0 -1.168 .236l-.125 .057a1 1 0 0 0 -1.707 .707v5a1 1 0 0 0 2 0v-3a1 1 0 0 1 2 0v3a1 1 0 0 0 2 0v-3a3 3 0 0 0 -3 -3m-6 -3a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" />
+                    </svg>
+                    <span class="sr-only">linkedin account</span>
+                </a>
+                <a href="https://www.instagram.com/awan.inno/" class="text-white ms-5" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram w-4 h-4">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                        <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                        <path d="M16.5 7.5v.01" />
+                    </svg> <span class="sr-only">instgram account</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>

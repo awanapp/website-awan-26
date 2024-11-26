@@ -1,0 +1,37 @@
+<section id="Clients" class="mb-8">
+    <!-- Container -->
+    <div class="mx-auto w-full max-w-7xl px-5 md:px-10">
+        <div class="flex flex-wrap justify-between items-center mb-12 h-auto">
+            <div class="flex flex-col justify-center">
+                <p class="mb-2 text-lg flex items-center gap-2">
+                    <span class="bg-green-600 w-2 h-2 inline-block"></span>
+                    <span>{{'clients.TITLE' | translate}}</span>
+                </p>
+                <h2 class="text-4xl font-extrabold text-black max-w-sm">
+                    {{'clients.DESCRIPTION' | translate}}
+                </h2>
+            </div>
+            <div class="flex gap-4" dir="ltr">
+                <button (click)="carousel.prev()" class="bg-white  hover:text-white h-12 w-12 flex items-center justify-center rounded-full border-[1px] border-green-600 duration-300 hover:bg-green-600 ">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l4 4" /><path d="M5 12l4 -4" /></svg>
+                </button>
+                <button (click)="carousel.next()" class="bg-white  hover:text-white h-12 w-12 flex items-center justify-center rounded-full border-[1px] border-green-600 duration-300 hover:bg-green-600 ">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#F4FAFD] w-full py-12">
+        <div class="mx-auto w-full max-w-7xl px-5 md:px-10">
+            <owl-carousel-o #carousel [options]="customOptions">
+                <ng-container *ngFor="let client of clients">
+                    <ng-template carouselSlide [id]="client.id">
+                        <div class="w-auto h-auto flex items-center justify-center mx-4">
+                            <img [src]="client.src" [alt]="client.alt" class="h-full w-full object-contain">
+                        </div>
+                    </ng-template>
+                </ng-container>
+            </owl-carousel-o>
+        </div>
+    </div>
+</section>

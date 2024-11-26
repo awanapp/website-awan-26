@@ -1,0 +1,14 @@
+<section>
+    <div class="flex flex-wrap border-[1px] border-gray-300 rounded-lg" [ngClass]="{'flex-row-reverse': index % 2 !== 0}">
+        <div class="lg:w-1/2 w-full p-12 md:p-16 ">
+            <h3 class="max-w-lg text-2xl font-bold mb-8"> {{product.TITLE}} </h3>
+            <p class="mb-10 max-w-lg sm:text-base text-sm text-gray-400 md:mb-10 lg:mb-12"> {{product.DESCRIPTION}} </p>
+            <!-- <a href="#" class="block text-end ltr:ml-auto rtl:mr-auto font-normal text-sm text-green-600"> {{'common.READ_MORE' | translate}}
+                <span class="text-xs ltr:ml-2 rtl:mr-2">></span> </a> -->
+        </div>
+        <div class="lg:w-1/2 w-full flex justify-center items-center bg-primary-200 h-auto p-12">
+            <img [src]="product.IMAGE" [alt]="product.TITLE" />
+        </div>
+    </div>
+</section>
+

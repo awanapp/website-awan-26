@@ -1,0 +1,35 @@
+
+
+@mixin font-face($font-name) {
+  @font-face {
+    font-family: $font-name;
+    src: url('../fonts/#{$font-name}.ttf') format('truetype');
+  }
+}
+
+
+  @include font-face('Poppins-SemiBold');
+
+
+  @include font-face('Poppins-Regular');
+
+
+  @include font-face('Poppins-Medium');
+
+
+
+  @include font-face('ElMessiri-SemiBold');
+
+
+  @include font-face('ElMessiri-Regular');
+
+
+  @include font-face('ElMessiri-Medium');
+
+
+
+  @include font-face('Cairo-VariableFont_wght');
+
+
+  @include font-face('DGAqsaBold');
+

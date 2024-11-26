@@ -1,0 +1,32 @@
+<section id="Services" class="bg-[#F4FAFD] mb-20">
+    <!-- Container -->
+    <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+        <div class="flex flex-col items-center mb-8">
+            <p class="mb-4 text-lg flex items-center gap-2">
+                <span class="bg-green-600 w-2 h-2 inline-block"></span>
+                <span>{{ 'services.OUR_SERVICES' | translate}}</span>
+            </p>
+            <h2 class="text-4xl font-extrabold text-black text-center flex ltr:flex-col rtl:flex-row items-center">
+                <span>{{ 'services.description' | translate}}</span>
+                <span>{{ 'services.description2' | translate}}</span>
+            </h2>
+
+        </div>
+
+        <div>
+            <!-- Content -->
+            <ul class="grid gap-4 sm:grid-cols-2 ">
+                <!-- Item -->
+                <li class="rounded-md border-[1px] bg-white border-gray-300 py-12 px-8 flex w-full text-gray-500 " *ngFor="let item of services">
+                    <div class="w-10 h-10 rounded-lg flex items-center justify-center" [style]="item.bgGrediant">
+                        <img [src]="item.image" alt="about" class="h-6">
+                    </div>
+                    <div class="ltr:ml-4 rtl:mr-4 flex flex-col flex-1">
+                      <p class="font-semibold">{{item.title}}</p>
+                      <p class="text-sm text-gray-500">{{item.description}} </p> 
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,57 @@
+<section id="home" class="relative bg-[url('/images/bg-cover.jpeg')] bg-cover bg-center bg-no-repeat">
+    <div class="absolute inset-0 bg-gray-900/75"></div>
+
+    <div class="h-full lg:w-2/4 w-full text-left backdrop-blur-md bg-gray-600/50 absolute ltr:left-0 rtl:right-0"></div>
+    <div class="relative mx-auto w-full max-w-7xl px-5 md:px-10 flex items-center max-h-[640px] md:min-h-min h-screen">
+        <div class="relative z-10 flex flex-col items-start sm:py-56 justify-center w-full  rounded-md">
+            <div class="max-w-lg">
+                <p class="my-4 max-w-lg text-white text-sm flex items-center gap-2">
+                    <span class="bg-green-600 w-2 h-2 inline-block"></span>
+                    <span>{{'cover.WELCOME_MESSAGE' | translate}}</span>
+                </p>
+
+                <h1 class="text-4xl font-extrabold text-white" [innerHTML]="('cover.PIONEER_COMPANY_TEXT' | translate)">
+                </h1>
+
+                <div class="mt-8 flex flex-wrap gap-8 text-left">
+                    <a href="javascript:void(0)" (click)="scrollToElement('Contact')"
+                        class="block bg-green-600 px-8 py-4 text-sm font-medium text-white shadow hover:bg-green-700 focus:outline-none focus:ring active:bg-green-500 sm:w-auto">
+                        {{ 'common.GET_CONSULTING' | translate}}
+                    </a>
+
+                    <!-- <a href="javascript:void(0)" (click)="videoOpen = true"
+                        class="flex items-center gap-2 text-sm font-medium text-white">
+                        <span class="w-14 h-14 rounded-full bg-yellow-500 text-white flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor"
+                                class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                            </svg>
+                        </span>
+                        <span class="whitespace-nowrap underline">
+                            {{ 'common.WATCH_VIDEOS' | translate}}
+                        </span>
+                    </a> -->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="fixed inset-0 h-[100vh] w-screen z-50" *ngIf="videoOpen" (click)="videoOpen = false">
+    <div class="fixed inset-0 bg-gray-800 bg-opacity-75 transition-opacity"></div>
+    <div
+        class="absolute z-50 w-full max-w-[500px] overflow-y-auto top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+        <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+            <iframe class="w-full max-w-[600px] rounded-xl overflow-hidden" height="400"
+                 loading="lazy"  src="https://www.youtube.com/embed/ZrUYRGvKT2w" title="10 ساعات قران كريم جودة عالية هزاع البلوشي"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
