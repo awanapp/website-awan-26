@@ -38,9 +38,17 @@ export class OurClientsComponent {
     nav: false
   }
   clients = [
-    { id: '1', src: 'images/clients/logo5.png', alt: 'logo5' },
-    { id: '2', src: 'images/clients/logo6.png', alt: 'logo6' },
-    { id: '3', src: 'images/clients/logo8.png', alt: 'logo8' },
-    { id: '4', src: 'images/clients/logo9.png', alt: 'logo9' },
+    { id: '1', src: 'images/clients/logo1.png', alt: 'logo1' },
+    { id: '2', src: 'images/clients/logo2.png', alt: 'logo6' },
+    { id: '3', src: 'images/clients/logo3.png', alt: 'logo6' },
+    { id: '4', src: 'images/clients/logo4.jpg', alt: 'logo6' },
+    { id: '5', src: 'images/clients/logo5.png', alt: 'logo8' },
+    { id: '6', src: 'images/clients/logo6.png', alt: 'logo6' },
+    { id: '7', src: 'images/clients/logo7.png', alt: 'logo5' },
+    { id: '8', src: 'images/clients/logo8.png', alt: 'logo5' },
+    { id: '9', src: 'images/clients/logo9.png', alt: 'logo5' },
+    { id: '10', src: 'images/clients/logo10.png', alt: 'logo5' },
+    { id: '11', src: 'images/clients/logo11.png', alt: 'logo5' },
   ]
 }
+ 
