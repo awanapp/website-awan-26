@@ -30,7 +30,17 @@ module.exports = {
         fontFamily: {
           'poppins': ['Poppins-SemiBold', 'sans-serif'],
           'el-messiri': ['ElMessiri-SemiBold', 'sans-serif'],
-      }
+        },
+        spacing: {
+          'container-x': '1.25rem', // 20px for mobile
+        },
+        maxWidth: {
+          'container-sm': '640px',
+          'container-md': '768px',
+          'container-lg': '1024px',
+          'container-xl': '1280px',
+          'container-2xl': '1536px',
+        }
       },
     },
     plugins: [],

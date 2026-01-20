@@ -23,6 +23,52 @@ body {
     /* Official Cairo Variable Font */
 }
 
+/* Responsive Container Classes */
+.container-responsive {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;  /* 20px mobile */
+    padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+    .container-responsive {
+        padding-left: 1.5rem;  /* 24px tablet */
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-responsive {
+        padding-left: 2.5rem;  /* 40px md */
+        padding-right: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-responsive {
+        padding-left: 3rem;  /* 48px lg */
+        padding-right: 3rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container-responsive {
+        padding-left: 4rem;  /* 64px xl */
+        padding-right: 4rem;
+    }
+}
+
+/* Full width section class */
+.section-full {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
 
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
