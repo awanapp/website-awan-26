@@ -7,7 +7,7 @@
                     <span class="bg-green-600 w-2 h-2 inline-block"></span>
                     <span>{{ 'products.OUR_PRODUCTS'| translate}}</span>
                 </p>
-                <h2 class="text-4xl font-extrabold text-black max-w-sm">
+                <h2 class="text-3xl font-extrabold text-black ">
                     {{ 'products.LATEST_PRODUCTS'| translate}}
                 </h2>
             </div>
@@ -18,7 +18,7 @@
                 </a>
             </div>
         </div>
-        <div *ngFor="let product of products; let i = index" class="mb-8" >
+        <div *ngFor="let product of products; let i = index" class="mb-8 bg-green-50" >
             <app-our-product-card [product]="product" [index]="i"/>
         </div>
     </div>

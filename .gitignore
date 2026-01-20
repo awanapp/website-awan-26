@@ -1,7 +1,9 @@
-node_modulesdist
-.angular
+﻿# Dependencies
+node_modules/
 
 # Build artifacts
+dist/
+.angular/
 build/
 out/
 *.log
@@ -13,4 +15,3 @@ out/
 # OS
 .DS_Store
 Thumbs.db
-node_modules
