@@ -19,133 +19,133 @@
         "quick_links": "Quick Links"
     },
     "cover": {
-        "WELCOME_MESSAGE": "Welcome To AWAN official Website",
-        "DESCRIPTION": "We are a pioneer company established recently since 2015 to provide an innovative digital solution",
-        "PIONEER_COMPANY_TEXT": "We are <strong class=\"font-extrabold text-green-600\">a pioneer company</strong> established recently since 2015 to provide an innovative digital solution"
+        "WELCOME_MESSAGE": "Welcome to Awan - Leading Provider of Enterprise Software Solutions & Digital Transformation Services",
+        "DESCRIPTION": "Awan is a premier software development company delivering custom enterprise solutions, full-stack application development, cloud infrastructure, mobile apps, and comprehensive digital transformation services. Trusted by 70+ satisfied enterprise clients worldwide.",
+        "PIONEER_COMPANY_TEXT": "Accelerate Your Digital Transformation with <strong class=\"font-extrabold text-green-600\">Professional Enterprise Software Solutions</strong> – Custom Development, Scalable Cloud Infrastructure, and Digital Innovation"
     },
     "about": {
-        "HEADING": "About",
-        "SUBHEADING": "We Care About Your Business Plan.",
-        "DESCRIPTION": "Awan is a start-up company in the field of Innovative Digital Solutions and Digital Transformation backed with our Team’s 13+ Years’ Experience in Software Development and Information Technology Fields. Our journey started since 2015 as Freelancers to provide our customers with Digital Solutions to fulfill their needs including Websites, Mobile and Desktop Applications. We began to grow rapidly and achieve unprecedented success, and due to the market and our customers’ needs,",
-        "CONTINUED_DESCRIPTION": "We started to develop our Platforms and Cloud Solutions. In 2019 we decided to start our company Awan. The most critical objective of our company is to better meet our customers' needs, facilitate their lives, help them to provide better services, which will reflect on their business, enhancing their customers' experience and increasing their organization’s competitive advantage, and hence increase their revenue."
+        "HEADING": "About Awan – 13+ Years of Professional Software Development Excellence",
+        "SUBHEADING": "Your Trusted Partner in Enterprise Software Solutions & Complete Digital Transformation",
+        "DESCRIPTION": "Awan is a premier software development company specializing in enterprise software solutions, custom application development, and comprehensive digital transformation services. With 13+ years of proven expertise in software engineering and IT consulting, our team of 35+ skilled developers and architects delivers cutting-edge technology solutions. Our professional portfolio includes enterprise resource planning (ERP) systems, mobile applications, web platforms, cloud infrastructure, and business process automation. Founded in 2015, we've evolved into a trusted partner for 70+ satisfied enterprise clients across finance, healthcare, logistics, advertising, and various other industries.",
+        "CONTINUED_DESCRIPTION": "We are committed to empowering businesses through innovative digital solutions that enhance operational efficiency, streamline workflows, improve customer experience, and drive sustainable competitive advantage. Our expertise spans enterprise architecture design, agile development methodologies, business process automation, software integration, API development, and scalable cloud-based platforms that grow with your organization. Whether you need custom software development, DevOps services, cloud migration, software testing, UI/UX design, or complete digital transformation programs, our professional team delivers measurable results that directly impact your business growth and bottom line performance."
     },
     "vision": {
-        "HEADING": "Vision",
-        "DESCRIPTION": "To be the most reliable and trusted provider of Innovative Digital Solutions and Digital Transformation that ensure customer competitive advantages while enabling a great business value."
+        "HEADING": "Our Vision",
+        "DESCRIPTION": "To be the leading provider of enterprise software solutions, custom development services, and comprehensive digital transformation in the Middle East and beyond. We envision empowering organizations of all sizes with innovative technologies, scalable platforms, and strategic IT consulting that drive sustainable business growth, operational excellence, and lasting competitive advantage in the digital economy."
     },
     "mission": {
-        "HEADING": "Mission",
-        "DESCRIPTION": "We deliver Innovative Digital Solutions that address Customers Challenges in a uniquely efficient way.",
-        "WHAT_WE_CAN_DO": "What We can Do",
-        "EXPLANATION": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy."
+        "HEADING": "Our Mission",
+        "DESCRIPTION": "Deliver professional, high-performance enterprise software solutions and strategic digital transformation services that solve complex business challenges, streamline operations, accelerate innovation, and drive measurable ROI for organizations worldwide. We combine technical excellence with business acumen to create solutions that transform industries.",
+        "WHAT_WE_CAN_DO": "Our Professional Services & Technical Expertise",
+        "EXPLANATION": "We combine agile development methodologies, enterprise architecture best practices, and proven technical frameworks to deliver scalable, secure, maintainable, and future-proof software solutions. Our comprehensive expertise spans full-stack development, microservices architecture, cloud infrastructure (AWS, Azure, GCP), mobile applications (iOS & Android), progressive web applications (PWA), database design, API development, DevOps practices, and complete digital transformation programs tailored to your unique business requirements."
     },
     "products": {
-        "OUR_PRODUCTS": "Our Products",
-        "LATEST_PRODUCTS": "Latest Products",
+        "OUR_PRODUCTS": "Enterprise Software Solutions & Professional Platforms",
+        "LATEST_PRODUCTS": "Our Professional Software Products & Enterprise Platforms",
         "PRODUCT_LIST": [
             {
-                "TITLE": "HR & Time Control System",
-                "DESCRIPTION": "The HR Management System is a web and mobile application designed to meet companies' needs for comprehensive and efficient employee tracking and management. It allows for employee data recording, leave and schedule management, and provides reports to enhance efficiency and transparency within the organization.",
+                "TITLE": "HR & Time Control Management System",
+                "DESCRIPTION": "Enterprise-grade Human Resources management platform built for modern organizations. Our comprehensive HR solution includes employee data management, leave request processing, attendance tracking, payroll integration, advanced workforce analytics, and real-time reporting. Streamline HR operations, reduce administrative overhead, minimize payroll errors, and gain actionable insights into workforce management with our scalable, cloud-based HR platform.",
                 "IMAGE": "images/hr-product.png"
             },
             {
-                "TITLE": "Cars Affairs Department",
-                "DESCRIPTION": "The corporate fleet management system enables effective monitoring and tracking of vehicle movement and maintenance. The system helps improve fleet management efficiency by scheduling regular maintenance, tracking fuel consumption, and monitoring locations in real time. This solution provides a comprehensive view of the fleet, reducing operational costs and enhancing the safety and efficiency of corporate logistics operations.",
+                "TITLE": "Fleet Management & Vehicle Tracking System",
+                "DESCRIPTION": "Advanced corporate fleet management platform designed for transport and logistics companies. Track vehicle locations in real-time with GPS, monitor maintenance schedules, optimize fuel consumption, reduce operational costs, and improve driver safety. Our fleet management solution provides comprehensive vehicle tracking, automated maintenance alerts, driver behavior monitoring, route optimization, and detailed analytics to improve efficiency and safety across your entire vehicle fleet.",
                 "IMAGE": "images/car-product.png"
             },
             {
-                "TITLE": "Medical Platform",
-                "DESCRIPTION": "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+                "TITLE": "Healthcare Management Platform & EMR System",
+                "DESCRIPTION": "Integrated healthcare solution designed for medical facilities, clinics, and healthcare providers. Manage patient records, appointments, billing, and medical documentation securely in compliance with healthcare regulations and data protection standards. Our healthcare platform improves patient care delivery, streamlines administrative processes, ensures HIPAA compliance, and provides secure data management for medical institutions and practitioners.",
                 "IMAGE": "images/medical-product.png"
             },
             {
-                "TITLE": "Naqla System for Delivery Operations Management",
-                "DESCRIPTION": "The Driver and Supervisor Management System is an innovative solution for transport and delivery companies, accessible via web and mobile. It offers efficient tools for tracking daily operations and managing orders seamlessly.",
+                "TITLE": "Delivery Operations Management System (Naqla)",
+                "DESCRIPTION": "Complete logistics and delivery management platform for transport companies and delivery services. Manage orders, track drivers in real-time, optimize delivery routes, monitor supervisor activities, and provide customers with real-time shipment tracking. Our delivery management system improves operational efficiency, reduces delivery times, enhances customer satisfaction, and provides comprehensive logistics analytics.",
                 "IMAGE": "images/nakla.png"
             },
             {
-                "TITLE": "Advertising and Marketing Company Management System",
-                "DESCRIPTION": "An innovative internal system designed for advertising companies, providing comprehensive management of the work cycle. It starts from registering customer requests and assigning responsible designers, all the way to managing production resources such as wood, with detailed reports for all aspects.",
+                "TITLE": "Advertising Agency & Marketing Project Management",
+                "DESCRIPTION": "Comprehensive project management software for advertising agencies, marketing companies, and creative studios. Manage client projects end-to-end, assign tasks to creative teams, track resource allocation, manage production logistics, and handle financial operations. Our advertising management platform streamlines workflow from client intake through project completion with detailed financial reporting, production tracking, and creative asset management.",
                 "IMAGE": "images/Ads.png"
             }
         ]
     },
     "stats": {
         "YEARS_EXPERIENCE": {
-            "VALUE": "10+",
-            "DESCRIPTION": "Years of Experience",
-            "DETAILS": "We have over 10 years of experience in delivering comprehensive and advanced software solutions, ensuring high-quality services and exceptional results for our clients."
+            "VALUE": "13+",
+            "DESCRIPTION": "Years of Professional Software Development Experience",
+            "DETAILS": "Over 13 years of proven expertise delivering enterprise software solutions, custom applications, and digital transformation projects. Our team's extensive industry experience ensures robust, scalable solutions for organizations across diverse sectors and industries."
         },
         "SATISFIED_CLIENTS": {
             "VALUE": "70+",
-            "DESCRIPTION": "Satisfied Clients",
-            "DETAILS": "We proudly served 50 satisfied clients, committed to delivering solutions that exceed their expectations and achieve the highest levels of satisfaction."
+            "DESCRIPTION": "Enterprise Clients Served Globally",
+            "DETAILS": "We've successfully delivered enterprise solutions to 70+ satisfied clients worldwide, from innovative startups to Fortune 500 enterprises. Our portfolio demonstrates our commitment to excellence, reliability, and delivering measurable business value through software innovation."
         },
         "IT_PROBLEMS_SOLVED": {
-            "VALUE": "5k+",
-            "DESCRIPTION": "IT Problems Solved",
-            "DETAILS": "We have resolved 5,000 technical issues, reflecting our expertise and dedication to providing effective and sustainable technical support to our clients."
+            "VALUE": "5000+",
+            "DESCRIPTION": "Complex Technical Challenges Resolved",
+            "DETAILS": "Over 5,000 complex technical challenges solved through innovative solutions, expert support, and proactive optimization. We combine deep technical expertise with customer-focused service to resolve enterprise-level problems and deliver high-performance solutions."
         },
         "PRO_TEAM_MEMBERS": {
             "VALUE": "35+",
-            "DESCRIPTION": "Professional Team Members",
-            "DETAILS": "Our team includes over 35 skilled professionals who are passionate about delivering the best software solutions to our clients."
+            "DESCRIPTION": "Professional Developers, Architects & Engineers",
+            "DETAILS": "Our dedicated team of 35+ skilled software developers, solution architects, DevOps engineers, and IT specialists brings diverse expertise in full-stack development, cloud technologies, enterprise architecture, and business process optimization."
         }
     },
     "services": {
-        "OUR_SERVICES": "Our Services",
-        "description": "Our design and development approach.",
-        "description2": "development approach.",
+        "OUR_SERVICES": "Professional Services & Solutions",
+        "description": "Enterprise digital transformation & custom software development",
+        "description2": "solutions for organizational growth",
         "DigitalTransformation": {
-            "TITLE": "Digital Transformation",
-            "DESCRIPTION": "We utilize digital technologies to create and enhance business projects of all sizes, improving customer experiences to continually meet market demands."
+            "TITLE": "Digital Transformation Consulting & Implementation",
+            "DESCRIPTION": "Transform your business with cutting-edge digital technologies and strategic innovation. We design and implement comprehensive digital transformation strategies that modernize operations, improve customer engagement, enhance productivity, and accelerate business growth. From cloud migration to business process automation and legacy system modernization, we guide your organization through every stage of digital evolution."
         },
         "FullStackProduction": {
-            "TITLE": "Full Stack Software Development",
-            "DESCRIPTION": "With the diversity of devices, languages, and applications available today, software development services require a range of specialized technologies. We offer these integrated services to ensure exceptional, customized solutions for our clients."
+            "TITLE": "Full Stack Custom Software Development",
+            "DESCRIPTION": "End-to-end custom software development using modern technologies, agile methodologies, and enterprise architecture best practices. Our full-stack developers build scalable, robust applications from frontend to backend, including responsive UI design, RESTful API development, database architecture, and cloud infrastructure. We deliver enterprise-grade solutions tailored to your specific business requirements and growth objectives."
         },
         "MobileApplications": {
-            "TITLE": "Mobile Applications",
-            "DESCRIPTION": "We turn your imagination into reality by providing highly scalable application development solutions. Our vision is to digitally transform organizations and innovate unmatched solutions for our clients."
+            "TITLE": "Mobile Application Development (iOS & Android)",
+            "DESCRIPTION": "Create powerful native and cross-platform mobile applications for iOS and Android devices. We develop feature-rich, user-friendly mobile solutions that engage users, drive downloads, generate revenue, and provide exceptional user experiences. From concept design through app store deployment, we handle every aspect of professional mobile application development with proven methodologies."
         },
         "Websites&WebApplications": {
-            "TITLE": "Websites & Web Applications",
-            "DESCRIPTION": "We develop real-time applications and deploy robust, optimized applications, building APIs that meet your requirements, making work more efficient and significantly speeding up performance."
+            "TITLE": "Web Development & Progressive Web Applications",
+            "DESCRIPTION": "Build fast, secure, and scalable web applications and websites using latest frameworks and technologies. We specialize in responsive web design, progressive web applications (PWA), single-page applications (SPA), RESTful API design, and modern JavaScript frameworks (React, Angular, Vue.js). Our web solutions deliver exceptional performance, accessibility, SEO optimization, and superior user experience."
         },
         "Networks&Infrastructure": {
-            "TITLE": "Networks & Infrastructure",
-            "DESCRIPTION": "We design and establish network connectivity, manage network operations and processes, providing a communication path and services that link users, operations, applications, and external and internal networks."
+            "TITLE": "IT Infrastructure & Network Architecture",
+            "DESCRIPTION": "Design and implement robust network infrastructure, enterprise system architecture, and IT operations management services. We provide secure network connectivity, infrastructure optimization, system monitoring, disaster recovery, and 24/7 support. Our solutions ensure reliable uptime, data security, network scalability, and enterprise-grade performance for mission-critical operations."
         },
         "IntegratedCloudSolutions": {
-            "TITLE": "Integrated Cloud Solutions",
-            "DESCRIPTION": "Cloud computing aims to reduce costs and help users focus on their core business instead of facing technical hurdles."
+            "TITLE": "Cloud Solutions, Migration & DevOps Services",
+            "DESCRIPTION": "Migrate, deploy, and manage applications on AWS, Microsoft Azure, Google Cloud Platform, or private cloud environments. We design scalable cloud architecture, optimize cloud costs, implement containerization (Docker & Kubernetes), establish CI/CD pipelines, and provide managed cloud services. Our cloud expertise reduces infrastructure overhead while improving system scalability, reliability, and disaster recovery capabilities."
         }
     },
     "clients": {
-        "TITLE": "Our Clients",
-        "DESCRIPTION": "We are working with"
+        "TITLE": "Our Enterprise Client Portfolio",
+        "DESCRIPTION": "Trusted by leading organizations worldwide"
     },
     "team": {
-        "OUR_CEOS": "Our CEOs",
-        "MEET_OUR_EXPERTS": "Meet Our Experts"
+        "OUR_CEOS": "Executive Leadership Team",
+        "MEET_OUR_EXPERTS": "Meet Our Professional Team"
     },
     "contact": {
-        "CALL_US": "Call Us",
-        "MAIL_US": "Mail Us",
-        "LOCATION": "Location",
-        "ContactUs": "Contact Us",
-        "workingHours": "Along the week from 8:00 AM - 5:00 PM",
-        "ADDRESS": " Nasr City, Cairo, Egypt"
+        "CALL_US": "Phone Consultation",
+        "MAIL_US": "Email Us",
+        "LOCATION": "Office Location",
+        "ContactUs": "Contact Our Consultation Team",
+        "workingHours": "Available Monday - Friday, 8:00 AM - 5:00 PM",
+        "ADDRESS": "Nasr City, Cairo, Arab Republic of Egypt"
     },
     "mail": {
-        "TITLE": "Join Our Mailing List",
-        "EMAIL_PLACEHOLDER": "Your email address"
+        "TITLE": "Subscribe to Awan's Professional Newsletter",
+        "EMAIL_PLACEHOLDER": "Enter your email address"
     },
     "META": {
-        "TITLE": "Awan - Innovative Digital Solutions",
-        "DESCRIPTION": "Awan delivers innovative digital solutions, specializing in software development, digital transformation, cloud solutions, and more. Boost your business with Awan's expertise.",
-        "KEYWORDS": "Digital Solutions, Software Development, Digital Transformation, Cloud Solutions, Mobile Applications, Web Development, IT Services, Awan, Cairo, Egypt",
-        "OG_TITLE": "Awan - Innovative Digital Solutions",
-        "OG_DESCRIPTION": "Transform your business with Awan's digital solutions and cutting-edge technologies."
+        "TITLE": "Awan - Enterprise Software Solutions & Digital Transformation Services",
+        "DESCRIPTION": "Awan is a leading software development company providing custom software development, enterprise solutions, digital transformation services, cloud infrastructure, mobile app development, and IT consulting. Partner with 13+ years of proven expertise serving 70+ enterprise clients.",
+        "KEYWORDS": "enterprise software development, custom software solutions, digital transformation services, software development company, mobile app development, web application development, cloud solutions, enterprise architecture, DevOps services, business process automation, software testing, IT consulting, software integration, microservices, Cairo, Egypt, Middle East",
+        "OG_TITLE": "Awan - Enterprise Software & Digital Transformation Solutions",
+        "OG_DESCRIPTION": "Partner with Awan for professional custom software development, enterprise solutions, comprehensive digital transformation, and strategic IT consulting to drive your business growth."
     }
 }

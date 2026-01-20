@@ -1,0 +1,16 @@
+node_modulesdist
+.angular
+
+# Build artifacts
+build/
+out/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+node_modules
