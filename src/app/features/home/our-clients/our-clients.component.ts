@@ -49,6 +49,12 @@ export class OurClientsComponent {
     { id: '9', src: 'images/clients/logo9.png', alt: 'logo5' },
     { id: '10', src: 'images/clients/logo10.png', alt: 'logo5' },
     { id: '11', src: 'images/clients/logo11.png', alt: 'logo5' },
+    { id: '12', src: 'images/clients/logo13.png', alt: 'logo5' },
+    { id: '13', src: 'images/clients/logo14.png', alt: 'logo5' },
+    { id: '14', src: 'images/clients/logo15.png', alt: 'logo5' },
+    { id: '15', src: 'images/clients/logo16.png', alt: 'logo5' },
+    { id: '16', src: 'images/clients/logo17.png', alt: 'logo5' },
+    { id: '17', src: 'images/clients/logo18.png', alt: 'logo5' },
   ]
 }
  

@@ -60,6 +60,10 @@
         </div>
     </div>
 </div>
+<!-- Calendly widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<!-- Calendly widget end -->
 <div class="sticky top-0 z-40">
 
     <header>
@@ -102,7 +106,7 @@
                         <span class="hidden sm:inline-block">
                             <app-lang />
                         </span>
-                        <a href="javascript:void(0)" (click)="scrollToElement('Contact')"
+                        <a href="javascript:void(0)" onclick="Calendly.showPopupWidget('https://calendly.com/awan-app-eg/20min'); return false;"
                             class="block bg-primary-600 px-4 py-4 my-2 text-xs sm:text-sm font-medium text-white shadow hover:bg-primary-700 focus:outline-none focus:ring active:bg-primary-500 sm:w-auto">
                             {{ 'common.GET_CONSULTING' | translate}}
                         </a>
