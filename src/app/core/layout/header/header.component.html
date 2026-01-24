@@ -23,7 +23,7 @@
                         <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
                         <path d="M3 7l9 6l9 -6" />
                     </svg>
-                    <a href="mailto:www.awan-is.com" class="">www.awan-is.com</a>
+                    <a href="mailto:info@awan-is.com" class="">Email Us</a>
                 </div>
             </div>
             <div class="flex md:w-auto w-full sm:justify-start lg:justify-end gap-2">
@@ -60,10 +60,6 @@
         </div>
     </div>
 </div>
-<!-- Calendly widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<!-- Calendly widget end -->
 <div class="sticky top-0 z-40">
 
     <header>
@@ -106,7 +102,7 @@
                         <span class="hidden sm:inline-block">
                             <app-lang />
                         </span>
-                        <a href="javascript:void(0)" onclick="Calendly.showPopupWidget('https://calendly.com/awan-app-eg/20min'); return false;"
+                        <a href="javascript:void(0)" (click)="openCalendly(); $event.preventDefault();"
                             class="block bg-primary-600 px-4 py-4 my-2 text-xs sm:text-sm font-medium text-white shadow hover:bg-primary-700 focus:outline-none focus:ring active:bg-primary-500 sm:w-auto">
                             {{ 'common.GET_CONSULTING' | translate}}
                         </a>

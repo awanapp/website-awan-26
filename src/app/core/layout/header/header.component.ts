@@ -14,9 +14,39 @@ import { TranslateModule } from '@ngx-translate/core';
 export class HeaderComponent {
   isMenuOpen: boolean = false;
   currentSection:string = '';
-  constructor(private commonService: CommonService) { }
+  constructor(
+    private commonService: CommonService
+  ) { }
   scrollToElement(elementId: string): void {
     this.commonService.scrollToElement(elementId);
+  }
+
+  openCalendly(): void {
+    // Check if we're in the browser environment
+    console.log("calendly try");
+    
+    if (typeof window !== 'undefined') {
+      const checkCalendly = () => {
+        console.log("calendly try open");
+        const calendly = (window as any).Calendly;
+        console.log("Calendly object:", calendly);
+        
+        if (calendly && calendly.showPopupWidget) {
+          console.log("Using showPopupWidget");
+          calendly.showPopupWidget('https://calendly.com/awan-app-eg/15min');
+        } else if (calendly && typeof calendly.initPopupWidget === 'function') {
+          // Alternative method for newer Calendly versions
+          console.log("Using initPopupWidget");
+          calendly.initPopupWidget({ url: 'https://calendly.com/awan-app-eg/15min' });
+          calendly.showPopupWidget();
+        } else {
+          console.log("Calendly not loaded yet, retrying...");
+          // Retry after a short delay if Calendly is not yet loaded
+          setTimeout(checkCalendly, 200);
+        }
+      };
+      checkCalendly();
+    }
   }
 
   @HostListener('window:scroll', [])

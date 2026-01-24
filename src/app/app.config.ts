@@ -4,7 +4,7 @@ import { provideRouter, withPreloading, PreloadAllModules, withRouterConfig } fr
 import { routes } from './app.routes';
 import { provideClientHydration, withNoHttpTransferCache } from '@angular/platform-browser';
 import { provideAnimations } from '@angular/platform-browser/animations';
-import { HttpClient, provideHttpClient, withXsrfConfiguration } from '@angular/common/http';
+import { HttpClient, provideHttpClient, withXsrfConfiguration, withFetch } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { CommonService } from './core/services/common.service';
@@ -38,6 +38,7 @@ export const appConfig: ApplicationConfig = {
     provideAnimations(),
     importProvidersFrom([TranslateModule.forRoot(provideTranslation())]),
     provideHttpClient(
+      withFetch(),
       withXsrfConfiguration({
         cookieName: 'X-CSRF-TOKEN',
         headerName: 'X-CSRF-TOKEN'

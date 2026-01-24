@@ -95,7 +95,7 @@ export class SeoService {
   }
 
   private setStructuredData(structuredData: any): void {
-    if (isPlatformServer(this.platformId)) {
+    if (!isPlatformServer(this.platformId)) {
       // Create and inject JSON-LD script
       const script = document.createElement('script');
       script.type = 'application/ld+json';
